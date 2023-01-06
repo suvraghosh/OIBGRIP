@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&family=Nanum+Gothic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 62%;
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+    padding-left: 60px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: rgb(0, 208, 197);
+}
+.rightnav{
+    width: 50%;
+    padding: 0 23px;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid rgb(0, 208, 197);
+    border-radius: 7px;
+    background: transparent;
+    color: white;
+}
+.btn-sm{
+    width: 96px;
+    height: 37px;
+}
+.background{
+    background: rgba(0,0,0,0)url('./Assests/Ai_7.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 100%;
+}
+.secondhalf img{
+    width: 76%;
+    border: 2px solid rgb(37, 35, 35);
+    border-radius: 47px;
+    display: block;
+    margin: auto;
+}
+.secondhalf img:hover{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40px rgba(0,0,0,.5);
+}
+
+.text-big{
+    font-size: 32px;
+    margin: 8px 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.text-small{
+    font-size: 16px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid rgb(44, 125, 200);
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    background: rgb(44, 125, 200);
+}
+.btn-1{
+    background: rgb(44, 125, 200);
+    border: none;
+    box-shadow: 5px 10px 20px rgba(150,150,150,.3);
+    color: white;
+    border-radius: 30px;
+    transition: transform 0.4s ease;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.btn-1::after .btn-1::before{
+    content: "";
+    position: absolute;
+    opacity: 0;
+    background: rgb(0, 0, 0);
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+.btn-1:hover{
+    transform: translate(12px,12px);
+}
+.btn-1:hover::after{
+    transform: translate(6px,6px);
+}
+.btn-1:hover::after{
+    transform: translate(12px,12px);
+}
+.icon{
+    width: 26px;
+    height: 27px;
+    border-radius: 100px;
+    background: white;
+    margin: -39px 0px 0px 128px;
+    text-align: center;
+    font-size: 27px;
+    line-height: 21px;
+    overflow: hidden;
+    border: 2px solid red;
+    transition: all .3s ease-out;
+}
+.icon:hover{
+    width: 150px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.icon:hover i{
+    color: white;
+}
+.icon .fa-circle-play{
+    color: rgb(255, 0, 17);
+}
+.play:hover{
+    background: red;
+}
+.text:hover{
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-evenly;
+} 
