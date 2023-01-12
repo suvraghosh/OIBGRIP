@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kodchasan:wght@200&family=Nanum+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30vh;
+    background-image: url('./bg_01.jpg');
+    background-size: cover;
+}
+
+.container {
+    width: 408px;
+    border: 3px solid rgb(41, 37, 255);
+    background-color: #e9e6c2ef;
+    border-radius: 20px;
+    padding: 70px 70px;
+    box-shadow: 0px 0px 10px rgba(0, 204, 255, 0.8);
+    height: auto;
+}
+
+h2 {
+    font-size: 27px;
+    text-align: center;
+    margin: -35px 30px 40px 30px;
+    font-weight: bold;
+    color: rgba(0, 143, 179, 0.8);
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.btn {
+    width: 32%;
+    padding: 4px 2px;
+    background: rgb(255, 216, 45);
+    cursor: pointer;
+}
+.result_area {
+    margin: 10px 0;
+    margin-top: 20px;
+}
+.result_area {
+    font-size: 16px;
+}
+
+.temp_calculator_inputs {
+    width: 120%;
+    height: auto;
+    font-size: 1.6rem;
+    color: white;
+    background-color: rgb(69, 112, 241);
+    border-radius: 10px;
+    padding: 10px;
+    margin: -20px 0px 30px -25px;
+    font-family: 'Kodchasan', sans-serif;
+}
