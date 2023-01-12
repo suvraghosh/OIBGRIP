@@ -1,1 +1,1 @@
-Web devlopment intership projects
+Web devlopment intership projects.
